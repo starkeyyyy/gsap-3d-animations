@@ -6,46 +6,66 @@
     margin-top: 100vh;
     padding: 40px;
     border-radius: 20px;
+    font-size: 10px;
+    font-family: sans-serif;
 }
 
 .scroll-text:nth-child(1){
-  margin-top: 55%;
+  margin-top: 900px;
   width: 90vw;
   margin-left: 2vw;
   transition: none;
 }
 
 .scroll-text:nth-child(2){
-    margin-top: 65%;
+    margin-top: 1050px;
     margin-left: 50vw;
     width: 40vw;
 }
 
 .scroll-text:nth-child(3){
-    margin-top: 16%;
+    margin-top: 380px;
     margin-left: 5vw;
-    width: 700px;
+    width: 500px;
 }
 
 .scroll-text:nth-child(4){
     margin-top: 30%;
-    margin-left: 80vw;
-    width: 250px;
+    margin-left: 78vw;
+    width: 150px;
 }
 
 .scroll-text:nth-child(5){
-    margin-top: 16%;
+    margin-top: 300px;
     margin-left: 14vw
 }
 
 .scroll-text:nth-child(6){
-    margin-top: 15%;
+    margin-top: 400px;
     margin-left: 50vw
 
 }
 .scroll-text:nth-child(7){
-    margin-top: 18%;
+    margin-top: 600px;
     margin-left: 5vw
 
 }
 
+@keyframes bounceIn {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    60% {
+      transform: translateY(20px);
+      opacity: 1;
+    }
+    80% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  

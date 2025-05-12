@@ -18,12 +18,28 @@ background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, F
 
 
   .hide{
-    background-color: #654ea3;
-    width: 40px;
+    background-color: #000000;
+    width: 15px;
     height: 100vh;
     position:absolute;
     right: 0;
     z-index: 1;
+  }
+
+  .hide:nth-child(2){
+    left: 0;
+
+  }
+  .hide:nth-child(3){
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 12px;
+  }
+  .hide:nth-child(4){
+    bottom: 0;
+    width: 100vw;
+    height: 12px;
   }
  
  canvas {
